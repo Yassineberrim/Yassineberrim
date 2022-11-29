@@ -1,12 +1,13 @@
 <h1 align="center">Hi 👋, I'm Yassine Berrim (Lorsku)</h1>
 <h3 align="center">A passionate frontend developer from Morocco</h3>
 
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yassineberrim&label=Profile%20views&color=0e75b6&style=flat" alt="yassineberrim" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yassineberrim" alt="yassineberrim" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
-
+<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/black/yberrim" alt="yberrim's 42 stats" /></a>
 - 🔭 I’m currently working on **new porfolio**
 
 - 🌱 I’m currently learning **C and C++**
