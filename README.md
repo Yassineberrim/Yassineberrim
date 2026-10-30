@@ -2,9 +2,9 @@
 
 # Yassine Berrim
 
-### Data Analyst
+### Data Analyst · DevOps · AI
 
-*Turning raw data into clear, actionable insights.*
+*Turning raw data into insights, and insights into reliable, automated systems.*
 
 Software Engineering student at 42 · Morocco
 
@@ -21,7 +21,7 @@ Software Engineering student at 42 · Morocco
 
 ## 📊 Executive summary
 
-I analyze data to answer business questions: I collect it, clean it, explore it, and present the findings in a form decision-makers can act on. My engineering background at 42 gives me a solid base in programming, automation and infrastructure, which I bring to every analysis to keep it reproducible and reliable.
+I analyze data to answer business questions, and I build the automation around it so results are reproducible and reliable. My path combines three areas: **data analysis** (cleaning, exploration, dashboards), **DevOps** (Linux, Docker, Ansible, cloud deployment) and **AI** (machine learning and applied LLM tools). My engineering training at 42 gives me a solid base in programming and infrastructure.
 
 ---
 
@@ -33,9 +33,10 @@ I analyze data to answer business questions: I collect it, clean it, explore it,
 | **Education** | Software Engineering, 42 |
 | **Location** | Morocco |
 | **Core tools** | Python · SQL · Excel · Power BI |
-| **Focus** | Data cleaning · Exploratory analysis · KPIs · Dashboards · Reporting |
-| **Currently** | Advanced SQL, statistics, C/C++, cloud fundamentals, Cloud-1 project |
-| **Open to** | Data projects, collaboration, analytics opportunities |
+| **DevOps** | Linux · Docker · Ansible · Azure · Git |
+| **AI** | Machine learning with Python · applied LLM tools |
+| **Currently** | Cloud-1 project, advanced SQL, statistics, C/C++, cloud fundamentals |
+| **Open to** | Data, DevOps and AI projects, collaboration, opportunities |
 
 ---
 
@@ -55,17 +56,41 @@ flowchart LR
     class F goal;
 ```
 
-| Step | What I do |
-|---|---|
-| **Collect** | SQL queries, CSV and Excel files, APIs |
-| **Clean** | Missing values, duplicates, data types, outliers |
-| **Analyze** | Descriptive statistics, trends, segmentation, KPIs |
-| **Visualize** | Dashboards and charts that tell a story |
-| **Communicate** | Clear reports with actionable recommendations |
+---
+
+## ⚙️ DevOps and automation
+
+Infrastructure as code, reproducible environments, and deployments that run the same way every time.
+
+```mermaid
+flowchart LR
+    A[Code in Git] --> B[Ansible playbook]
+    B --> C[Provision server]
+    C --> D[Docker Compose stack]
+    D --> E[Running service]
+
+    classDef step fill:#2496ED,stroke:#14568A,color:#ffffff;
+    classDef goal fill:#2DA44E,stroke:#1B6B33,color:#ffffff;
+    class A,B,C,D step;
+    class E goal;
+```
+
+- **Infrastructure as code** with Ansible: roles, idempotent playbooks, no hard-coded secrets
+- **Containers** with Docker and Docker Compose: one process per container, isolated networks, persistent volumes
+- **Security basics:** firewall rules, restricted ports, TLS, secrets handled with Ansible Vault
+- **Cloud:** virtual machines on Azure, with attention to cost and cleanup
 
 ---
 
-## 🧰 Analytics toolkit
+## 🤖 AI and machine learning
+
+- **Machine learning with Python:** data preparation, model training and evaluation with scikit-learn
+- **Applied AI:** using LLMs as a coding and analysis partner, while reviewing and understanding every result myself
+- **Responsible use:** I document what AI helped generate and verify it with my peers
+
+---
+
+## 🧰 Toolkit
 
 **Data analysis**
 
@@ -73,7 +98,6 @@ flowchart LR
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 **Visualization and BI**
@@ -83,31 +107,40 @@ flowchart LR
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 
-**Databases**
+**AI and machine learning**
 
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
-**Engineering and cloud**
+**DevOps and cloud**
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Databases and programming**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
-## 📈 Analytical skills
+## 📈 Core skills
 
 - **Data preparation:** cleaning, validation, handling missing values and outliers
-- **Exploratory data analysis:** distributions, correlations, trends, segmentation
-- **KPI definition:** turning business questions into measurable indicators
-- **Data visualization:** dashboards and charts designed for decision-makers
-- **Reproducibility:** versioned code with Git, clear documentation, automation
+- **Exploratory analysis:** distributions, correlations, trends, segmentation
+- **KPIs and dashboards:** turning business questions into measurable indicators
+- **Automation:** reproducible environments, scripted and idempotent deployments
 - **Communication:** reports that explain what the data says and what to do next
 
 ---
@@ -139,6 +172,6 @@ More work in my [repositories](https://github.com/yassineberrim?tab=repositories
 
 <div align="center">
 
-*"Without data, you're just another person with an opinion."*
+*"Build, automate, analyze, repeat."*
 
 </div>
