@@ -13,7 +13,7 @@ Software Engineering student at 42 · Morocco
 [![42 Network](https://img.shields.io/badge/42-yberrim-000000?style=for-the-badge&logo=42&logoColor=white)](https://profile.intra.42.fr/users/yberrim)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yassineberrim_)
 
-[![yberrim's 42 stats](https://badge.mediaplus.ma/darkblue/yberrim)](https://github.com/oakoudad/badge42)
+
 
 </div>
 
