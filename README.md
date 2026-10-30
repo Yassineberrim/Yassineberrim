@@ -2,15 +2,16 @@
 
 # Yassine Berrim
 
-**Data Analyst** · Software Engineering student at 42 · Morocco
+### Data Analyst
 
-*Turning raw data into clear decisions.*
+*Turning raw data into clear, actionable insights.*
+
+Software Engineering student at 42 · Morocco
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yassine-berrim-ba3875199/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mrberrim@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yassineberrim_)
 [![42 Network](https://img.shields.io/badge/42-yberrim-000000?style=for-the-badge&logo=42&logoColor=white)](https://profile.intra.42.fr/users/yberrim)
-[![Followers](https://img.shields.io/github/followers/yassineberrim?style=for-the-badge&logo=github&logoColor=white&labelColor=24292F&color=2DA44E)](https://github.com/yassineberrim?tab=followers)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yassineberrim_)
 
 [![yberrim's 42 stats](https://badge.mediaplus.ma/darkblue/yberrim)](https://github.com/oakoudad/badge42)
 
@@ -18,38 +19,53 @@
 
 ---
 
-## `~/whoami`
+## 📊 Executive summary
 
-```console
-yberrim@42:~$ cat profile.txt
-name       : Yassine Berrim (aka Lorsku)
-role       : Data Analyst
-education  : Software Engineering @ 42
-location   : Morocco
-focus      : data cleaning, analysis, visualization, reporting
-
-yberrim@42:~$ cat now.txt
-working_on : Cloud-1 -> automated deployment (Docker Compose + Ansible)
-learning   : advanced SQL, statistics, C/C++, cloud fundamentals
-building   : personal portfolio and data projects
-open_to    : data projects, collaboration, analytics opportunities
-```
+I analyze data to answer business questions: I collect it, clean it, explore it, and present the findings in a form decision-makers can act on. My engineering background at 42 gives me a solid base in programming, automation and infrastructure, which I bring to every analysis to keep it reproducible and reliable.
 
 ---
 
-## `~/workflow`
+## 🧭 Profile at a glance
 
-```text
-[1] COLLECT      SQL queries, CSV / Excel files, APIs
-[2] CLEAN        missing values, duplicates, data types, outliers
-[3] ANALYZE      descriptive statistics, trends, segmentation, KPIs
-[4] VISUALIZE    dashboards and charts that tell a story
-[5] COMMUNICATE  clear reports and actionable recommendations
-```
+| | |
+|---|---|
+| **Role** | Data Analyst |
+| **Education** | Software Engineering, 42 |
+| **Location** | Morocco |
+| **Core tools** | Python · SQL · Excel · Power BI |
+| **Focus** | Data cleaning · Exploratory analysis · KPIs · Dashboards · Reporting |
+| **Currently** | Advanced SQL, statistics, C/C++, cloud fundamentals, Cloud-1 project |
+| **Open to** | Data projects, collaboration, analytics opportunities |
 
 ---
 
-## `~/stack`
+## 🔄 Analytics workflow
+
+```mermaid
+flowchart LR
+    A[Business question] --> B[Collect data]
+    B --> C[Clean and validate]
+    C --> D[Explore and analyze]
+    D --> E[Visualize]
+    E --> F[Insights and recommendations]
+
+    classDef step fill:#0A66C2,stroke:#0A3D6B,color:#ffffff;
+    classDef goal fill:#2DA44E,stroke:#1B6B33,color:#ffffff;
+    class A,B,C,D,E step;
+    class F goal;
+```
+
+| Step | What I do |
+|---|---|
+| **Collect** | SQL queries, CSV and Excel files, APIs |
+| **Clean** | Missing values, duplicates, data types, outliers |
+| **Analyze** | Descriptive statistics, trends, segmentation, KPIs |
+| **Visualize** | Dashboards and charts that tell a story |
+| **Communicate** | Clear reports with actionable recommendations |
+
+---
+
+## 🧰 Analytics toolkit
 
 **Data analysis**
 
@@ -60,7 +76,7 @@ open_to    : data projects, collaboration, analytics opportunities
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-**Visualization & BI**
+**Visualization and BI**
 
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
@@ -73,7 +89,7 @@ open_to    : data projects, collaboration, analytics opportunities
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-**Engineering & cloud**
+**Engineering and cloud**
 
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
@@ -85,25 +101,36 @@ open_to    : data projects, collaboration, analytics opportunities
 
 ---
 
-## `~/projects`
+## 📈 Analytical skills
 
-| Project | Description | Tech |
-|---|---|---|
-| **Cloud-1** | Automated, idempotent deployment of a WordPress stack on a cloud server, with no hard-coded secrets | Ansible, Docker Compose, Azure |
-| **Python for Data Science** | 42 curriculum exercises on data manipulation and analysis | Python, NumPy, Pandas |
+- **Data preparation:** cleaning, validation, handling missing values and outliers
+- **Exploratory data analysis:** distributions, correlations, trends, segmentation
+- **KPI definition:** turning business questions into measurable indicators
+- **Data visualization:** dashboards and charts designed for decision-makers
+- **Reproducibility:** versioned code with Git, clear documentation, automation
+- **Communication:** reports that explain what the data says and what to do next
+
+---
+
+## 🗂️ Featured projects
+
+| Project | Problem | Approach | Tools |
+|---|---|---|---|
+| **Cloud-1** | Deploy a web stack reliably on a remote server | Idempotent, automated deployment with no hard-coded secrets | Ansible, Docker Compose, Azure |
+| **Python for Data Science** | Manipulate and analyze data with Python | Structured exercises on data handling and analysis | Python, NumPy, Pandas |
 
 More work in my [repositories](https://github.com/yassineberrim?tab=repositories).
 
 ---
 
 <details>
-<summary><b>GitHub activity</b> (loaded from external services, may be slow)</summary>
+<summary><b>📉 GitHub activity</b> (loaded from external services, may be slow)</summary>
 
 <br>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=yassineberrim&show_icons=true&theme=merko&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassineberrim&layout=compact&theme=merko&hide_border=true" alt="Top languages" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=yassineberrim&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassineberrim&layout=compact&theme=default&hide_border=true" alt="Top languages" />
 </p>
 
 </details>
@@ -112,8 +139,6 @@ More work in my [repositories](https://github.com/yassineberrim?tab=repositories
 
 <div align="center">
 
-```console
-yberrim@42:~$ echo "Without data, you're just another person with an opinion."
-```
+*"Without data, you're just another person with an opinion."*
 
 </div>
